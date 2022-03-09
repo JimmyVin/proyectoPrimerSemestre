@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="comentariosEstilo.css">
+</head>
+ 
+<body>
+    <div id="contenedor">
+     
+        <div class="titulo">
+            Comentar
+        </div>
+                
+        
+     
+        <div id="central"> 
+            <form>
+                
+                <div class="clasificaciona">
+                    
+                    <p id="promedio" class="titulo2">★★★★★</p>
+                    <p class="titulo2"> Ratting</p>
+                    
+                </div>
+                <div>
+                    <label for="ratting">Ingrese su calificacion de estrellas:<br>5 = ★★★★★      |      4 = ★★★★      |      3 = ★★★      |      2 = ★★     |      1 = ★<input  type="number"  max="5" min="1" id="ratting"></label>
+                    
+                    
+                
+                    
+                </div>
+                <div>
+                    <input  type="text"  id="name" placeholder="Nombre">
+                    <textarea id="comment" class="form-control" placeholder="Comentario"></textarea>
+                </div>
+                
+                
+                <button type="button"  onclick="commentBox()">Enviar</button>
+            </form>
+            <div class="pie-form">
+                
+                <a href="../LOGIN.html">Iniciar seccion</a><br>
+                <a href="../INDEX (1).html">Volver</a>
+            </div>
+        </div>
+        <div id="result"></div>
+        <div id="publicacionEstrellas"></div>
+    </div>
+ 
+ 
+ 
+   
+    
+	<script src="baseComentarios.js"></script>
+	
+</body>
+ 
+</html>

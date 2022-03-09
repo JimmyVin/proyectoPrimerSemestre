@@ -1,0 +1,193 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+
+}
+
+body{
+    background: url(imagenes/fondo4.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.seccionuno{
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    padding-top: 0%;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    
+}
+
+.logo:hover{
+    transform: scale(3);
+    box-shadow: 0px 0px 10px 10px aliceblue;
+}
+
+
+.navegacion{
+    display: grid;
+    grid-template-columns: 3% 8% 8% 8% 8% 8% 8%;
+    grid-column-gap: 7%;
+    background: url(imagenes/nav.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: solid 6px  rgb(0, 0, 0);
+    padding: 0.8% 1% 0.8% 5%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.navegacion a{
+    text-decoration: none;
+
+}
+
+ul li a{
+    color: white;
+    font-size: 25px;
+}
+
+a:hover{
+    box-shadow: 0px 0px 10px 10px rgb(241, 241, 241);
+    border-radius: 5PX 5PX 5PX 5PX;
+    background-color: rgb(243, 242, 179);
+}
+
+#articuloprincipal{
+    background: url(imagenes/PRIN3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 54%;
+    position: absolute;
+    padding: 2%;
+    margin-left: 23%;
+    margin-top: 0.85%;
+    color: rgb(0, 0, 0);
+   font-size: 17px;
+   text-align: justify;
+}
+
+
+#articuloprincipal a{
+    color: rgb(0, 0, 0);
+}
+
+.izquierda{
+    width: 20%;
+    position: fixed;
+    padding: 1%;
+}
+
+.derecha{
+    width: 20%;
+    position: fixed;
+    padding: 1%;
+    margin-left: 80%;
+
+}
+
+.tr td{
+    padding: 3%;
+    width: 30%;
+    border-bottom: 5px solid black;
+    color: aliceblue;
+    background: url(imagenes/nav.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tabla{
+    border-bottom: 1px solid  rgb(2, 40, 63);
+    padding: 2% 3%;
+    font-size: 20px;
+}
+
+
+h2{
+    font-size: 20PX;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#PIE {
+    margin-top: 2%;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 16px;
+    background: rgb(105, 105, 105);
+    border-top: 2px solid rgb(3, 53, 168);
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+input{
+    height: 100PX;
+    width: 500PX;
+
+}
+
+button{
+    background-color:rgb(2, 40, 63);
+    width: 150PX;
+    color: aliceblue;
+
+}
+
+button:hover{
+    background-color: blue;
+} 
+
+td a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.a{
+    text-decoration: none;
+}
+
+#zonaComentarios{
+    border: 5px solid red;
+    background-color: aliceblue;
+    width: 90%;
+    height: 50px;
+}
+
+#comentario{
+    width: 200px;
+
+}
+h1 a {
+    font-size: 45PX;
+    text-decoration: none;
+    background-color: rgb(243, 242, 179);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 7px 7px white;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: aliceblue;
+}
